@@ -16,3 +16,31 @@ This project was developed as part of the **SmartBridge Internship Program**.
 ---
 
 ## 📂 Project Structure
+grocery-mern-app/
+│
+├── client/ # React Frontend
+│ ├── src/
+│ │ ├── pages/
+│ │ │ ├── Home.js
+│ │ │ ├── Dashboard.js
+│ │ │ ├── Login.js
+│ │ │ └── Register.js
+│ │ ├── App.js
+│ │ └── index.css
+│ └── package.json
+│
+├── server/ # Express + Node.js Backend
+│ ├── models/
+│ │ ├── userModel.js
+│ │ └── groceryModel.js
+│ ├── routes/
+│ │ ├── authRoutes.js
+│ │ └── groceryRoutes.js
+│ ├── middleware/
+│ │ └── authMiddleware.js
+│ ├── server.js
+│ └── package.json
+│
+├── .env # Environment variables
+├── README.md # Project Documentation
+└── .gitignore # Ignore node_modules, .env
